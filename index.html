@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div id="slideshow">
+    <section class="image-generator">
+        <div class="content">
+            <h1><span class="A">A</span><span class="I">i</span> Image Generator <span class="Tool">Tool</span></h1>
+            <p>Transform text into stunning images instantly with the magic of our AI-powered Image Generator tool</p>
+            <form action="#" class="generate-form">
+                <input id="prompt-input" class="prompt-input" type="text" placeholder="Provide your desired image details" required>
+                <button type="submit" id="generate-btn" class="generate-btn">Generate</button>
+            </form>
+        </div>
+    </section>
+</div>
+
+<div class="loading-overlay" style="display: none;">
+    <img src="./images/loading.gif" alt="Loading..." class="loading-gif">
+</div>
+
+<section id="images-container" class="image-gallery">
+    <div class="img-card">
+        <img src="" alt="image" id="img1">
+        <a href="#" class="download-btn" download>Download</a>
+    </div>
+    <div class="img-card">
+        <img src="" alt="image" id="img2">
+        <a href="#" class="download-btn" download>Download</a>
+    </div>
+    <div class="img-card">
+        <img src="" alt="image" id="img3">
+        <a href="#" class="download-btn" download>Download</a>
+    </div>
+    <div class="img-card">
+        <img src="" alt="image" id="img4">
+        <a href="#" class="download-btn" download>Download</a>
+    </div>
+</section>
+
+<a href="https://keshav3003.github.io/MyPortfolio_KPS/" class="credits-btn">Credits</a>
+
+</body>
+</html>
